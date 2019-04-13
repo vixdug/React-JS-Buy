@@ -18,10 +18,6 @@ class Nav extends Component {
         Connected Color
         </Menu.Item>
 
-        <Menu.Item name='reviews' active={activeItem === 'reviews'} onClick={this.handleItemClick}>
-          Reviews
-        </Menu.Item>
-
         <Menu.Menu position='right'>
         <Menu.Item
           name='Cart'
@@ -39,7 +35,5 @@ class Nav extends Component {
     )
   }
 }
-
-
 
 export default Nav;

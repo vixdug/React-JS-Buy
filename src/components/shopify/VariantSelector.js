@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 class VariantSelector extends Component {
   render() {
     return (
@@ -15,6 +14,7 @@ class VariantSelector extends Component {
           )
         })}
       </select>
+     
     );
   }
 }
