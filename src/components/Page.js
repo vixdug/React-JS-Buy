@@ -2,6 +2,7 @@ import React from 'react'
 import Products from './shopify/Products';
 import { connect } from 'react-redux'
 import store from '../store';
+import HeaderH1 from './Header.js'
 
 class Page extends React.Component {
   constructor() {
@@ -25,8 +26,9 @@ class Page extends React.Component {
     />;
     return(
       <div>
-        <h1>Store Section Title</h1>
-        <p>Example paragraph explaining store</p>
+          <HeaderH1 />
+        <h1>Connected Color</h1>
+        <p>concept store built with Shopify JS-Buy SDK / React / Redux </p>
         {oProducts}
       </div>
     )

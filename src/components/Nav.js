@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/nav.css'
-import { Menu } from 'semantic-ui-react'
+import { Icon, Menu, Button } from 'semantic-ui-react'
 
 class Nav extends Component {
   state = {}
@@ -11,29 +11,35 @@ class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu>
+      <Menu icon size='large'>
         <Menu.Item
-          name='editorials'
-          active={activeItem === 'editorials'}
-          onClick={this.handleItemClick}
+          color='orange'
         >
-          Editorials
+        Connected Color
         </Menu.Item>
 
         <Menu.Item name='reviews' active={activeItem === 'reviews'} onClick={this.handleItemClick}>
           Reviews
         </Menu.Item>
 
+        <Menu.Menu position='right'>
         <Menu.Item
           name='Cart'
           active={activeItem === 'cart'}
-          onClick={this.props.handleCartOpen}
-        >
-          Cart
+          onClick={this.props.handleCartOpen}>
+            <Button animated='vertical'size='big'>
+            <Button.Content hidden>Cart</Button.Content>
+            <Button.Content visible>
+                <Icon name='shop' />
+            </Button.Content>
+            </Button>
         </Menu.Item>
+        </Menu.Menu>
       </Menu>
     )
   }
 }
+
+
 
 export default Nav;
