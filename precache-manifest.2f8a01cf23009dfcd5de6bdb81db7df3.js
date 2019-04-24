@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "e8c322de9658cbeb8a774b6624167c2c",
-    "url": "/React-JS-Buy/static/media/brand-icons.e8c322de.woff2"
+    "revision": "faff92145777a3cbaf8e7367b4807987",
+    "url": "/React-JS-Buy/static/media/icons.faff9214.woff"
   },
   {
     "revision": "2e622c841a212f25e37f",
@@ -48,32 +48,32 @@ self.__precacheManifest = [
     "url": "/React-JS-Buy/static/js/main.ccebd415.chunk.js"
   },
   {
-    "revision": "faff92145777a3cbaf8e7367b4807987",
-    "url": "/React-JS-Buy/static/media/icons.faff9214.woff"
+    "revision": "e8c322de9658cbeb8a774b6624167c2c",
+    "url": "/React-JS-Buy/static/media/brand-icons.e8c322de.woff2"
   },
   {
     "revision": "a046592bac8f2fd96e994733faf3858c",
     "url": "/React-JS-Buy/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/React-JS-Buy/static/media/flags.9c74e172.png"
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/React-JS-Buy/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/React-JS-Buy/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/React-JS-Buy/static/media/icons.8e3c7f55.eot"
+    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
+    "url": "/React-JS-Buy/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
     "url": "/React-JS-Buy/static/media/brand-icons.13db00b7.eot"
   },
   {
-    "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
-    "url": "/React-JS-Buy/static/media/brand-icons.c5ebe0b3.ttf"
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/React-JS-Buy/static/media/flags.9c74e172.png"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/React-JS-Buy/static/css/2.c80a8f09.chunk.css"
   },
   {
-    "revision": "58570f66e3ace01b58ff9d7a38270b3a",
+    "revision": "97a5ba7dfb667c7c9cd32cf52589d9e4",
     "url": "/React-JS-Buy/index.html"
   }
 ];
